@@ -18,3 +18,18 @@ div.header {
   width: 100%;
   text-align: center;
 }
+
+form {
+  margin: 0 auto;
+  width: 275px;
+}
+
+input[type=text] {
+  border: solid #20d6da 1px;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: #20d6da;
+  border-radius:  25px;
+}
