@@ -33,3 +33,47 @@ input[type=submit] {
   color: #20d6da;
   border-radius:  25px;
 }
+
+.todo_list {
+  border: solid #20d6da 1px;
+  width: 700px;
+  height:  75px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+button.completed {
+  float: right;
+
+  width: 75px;
+  height:25px;
+  margin-right: 10px;
+  color: green;
+  margin-top: 7px;
+}
+
+button.delete {
+  float: right;
+  width: 75px;
+  height: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: red;
+}
+
+.buttons {
+  float: right;
+  width: 100px;
+
+}
+
+button {
+  background-color: white;
+  border-radius:  25px;
+}
+
+.todo_value {
+  float:left;
+  margin-left: 50px;
+
+}
