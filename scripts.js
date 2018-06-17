@@ -42,7 +42,7 @@ completed = (id) => {
   const outerClass = document.getElementsByClassName(id)[0]
   outerClass.getElementsByTagName("H3")[0].style.textDecoration = "line-through #20d6da"
   outerClass.getElementsByTagName("H3")[0].style.textDecorationStyle = "wavy"
-  // found_todo.style.textDecoration = "line through"
+  
 }
 
 deleteTodo = (id) => {
